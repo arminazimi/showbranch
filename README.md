@@ -2,6 +2,9 @@
 
 > Create a stunning GitHub portfolio with your favorite AI agent. Customize it safely. Publish it for free.
 
+> [!IMPORTANT]
+> RepoBloom is a temporary working name. The name-clearance review found exact and adjacent collisions, so the project will be renamed before packages, skills, plugins, or visual identity are published. See the [name-clearance report](docs/brand/name-clearance.md).
+
 RepoBloom is an agent-native, model-agnostic framework for turning a public GitHub profile into a beautiful static portfolio that can be reviewed in Git and published on GitHub Pages.
 
 ## Current milestone

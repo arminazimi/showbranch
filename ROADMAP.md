@@ -11,12 +11,9 @@ The category we want to own is **agent-native developer portfolios**, not the br
 
 ## Naming decision
 
-`RepoBloom` is the permanent master brand. It replaces the working name `AgentPages`, which collided with adjacent open-source projects:
+`RepoBloom` is now a temporary working name and must be replaced before Phase 0 can exit. The 2026-10-15 name-clearance review found an older exact-name developer-tool repository, an adjacent GitHub-profile product using RepoBloom, and a third-party registration of `repobloom.com`. See the [name-clearance report](docs/brand/name-clearance.md).
 
-- [idorozin/AgentPages](https://github.com/idorozin/AgentPages) — agent-maintained GitHub Pages sites.
-- [IgorWarzocha/agent-pages](https://github.com/IgorWarzocha/agent-pages) — React artifacts for coding agents, including an `agent-pages` skill.
-
-The repository and core package identifiers now use `repobloom`. Brand, skill, CLI, and plugin naming will remain aligned around this one identity.
+Do not publish packages, Skills, plugins, domains, or visual identity under `repobloom`. After a replacement passes the same clearance checks, the repository, package identifiers, CLI, Skill, and plugin naming will move together to that single identity.
 
 ## Product principles
 
@@ -259,7 +256,7 @@ Stars remain an important distribution signal, but **deployed and maintained por
 
 ### Weeks 1–2
 
-- Establish RepoBloom as the permanent name and reserve its identifiers.
+- Select a cleared permanent replacement for RepoBloom and reserve its identifiers.
 - Reserve identity and define category language.
 - Create the complete brand kit and launch copy foundation.
 - Turn the M1 prototype into the canonical repository structure.
