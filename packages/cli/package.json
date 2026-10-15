@@ -1,7 +1,14 @@
 {
   "name": "@showbranch/cli",
   "version": "0.0.0",
+  "description": "Create, validate, preview, and publish an agent-native developer portfolio from public GitHub work.",
   "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arminazimi/showbranch.git",
+    "directory": "packages/cli"
+  },
   "type": "module",
   "bin": {
     "showbranch": "./src/index.ts"

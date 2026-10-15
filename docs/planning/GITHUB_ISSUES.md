@@ -47,10 +47,10 @@ Depends on #3.
 
 **Acceptance criteria**
 
-- [ ] Update repository description, topics, social preview, and README header.
-- [ ] Add canonical brand assets under `assets/brand/`.
-- [ ] Add shared install-surface copy for CLI, Skill, Codex, and Claude.
-- [ ] Remove remaining AgentPages references except migration/history notes.
+- [x] Update repository description, topics, social preview, and README header.
+- [x] Add canonical brand assets under `assets/brand/`.
+- [x] Add shared install-surface copy for CLI, Skill, Codex, and Claude.
+- [x] Remove remaining AgentPages references except migration/history notes.
 
 ## Phase 1 — M1 product loop
 

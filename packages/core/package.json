@@ -1,7 +1,14 @@
 {
   "name": "@showbranch/core",
   "version": "0.0.0",
+  "description": "Model-agnostic schemas and deterministic operations for agent-native developer portfolios.",
   "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arminazimi/showbranch.git",
+    "directory": "packages/core"
+  },
   "type": "module",
   "exports": "./src/index.ts"
 }

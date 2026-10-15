@@ -1,7 +1,10 @@
 {
   "name": "showbranch",
   "version": "0.0.0",
+  "description": "Create, validate, preview, and publish an agent-native developer portfolio from public GitHub work.",
   "private": true,
+  "license": "MIT",
+  "repository": "github:arminazimi/showbranch",
   "type": "module",
   "workspaces": [
     "packages/*"

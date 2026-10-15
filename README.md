@@ -1,6 +1,13 @@
-# Showbranch
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/svg/showbranch-horizontal-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/brand/svg/showbranch-horizontal-light.svg">
+    <img alt="Showbranch" src="assets/brand/svg/showbranch-horizontal-light.svg" width="360">
+  </picture>
 
-> Turn your GitHub work into a portfolio worth showing.
+  <p><strong>Turn your GitHub work into a portfolio worth showing.</strong></p>
+  <p>Agent-native · Open source · Built for GitHub Pages</p>
+</div>
 
 Showbranch is the agent-native framework for turning public GitHub work into beautiful, safely managed portfolios. It works with your preferred coding agent, keeps every change reviewable in Git, and publishes static sites to GitHub Pages without a required backend.
 
@@ -37,4 +44,4 @@ The import command only reads GitHub's public API. Set `GITHUB_TOKEN` to increas
 - Static output with no Showbranch backend.
 - User-approved deployment through Git and GitHub Actions.
 
-See the [positioning and voice guide](docs/brand/positioning.md) for approved product language and [RFC 0001](docs/rfcs/0001-m1-vertical-slice.md) for scope and acceptance criteria.
+See the [positioning and voice guide](docs/brand/positioning.md), [visual identity guide](docs/brand/visual-identity.md), and [install-surface copy](docs/brand/install-surfaces.md) for the canonical brand system. See [RFC 0001](docs/rfcs/0001-m1-vertical-slice.md) for scope and acceptance criteria.
