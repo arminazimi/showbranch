@@ -1,11 +1,8 @@
-# RepoBloom
+# Showbranch
 
 > Create a stunning GitHub portfolio with your favorite AI agent. Customize it safely. Publish it for free.
 
-> [!IMPORTANT]
-> RepoBloom is a temporary working name. The name-clearance review found exact and adjacent collisions, so the project will be renamed before packages, skills, plugins, or visual identity are published. See the [name-clearance report](docs/brand/name-clearance.md).
-
-RepoBloom is an agent-native, model-agnostic framework for turning a public GitHub profile into a beautiful static portfolio that can be reviewed in Git and published on GitHub Pages.
+Showbranch is an agent-native, model-agnostic framework for turning a public GitHub profile into a beautiful static portfolio that can be reviewed in Git and published on GitHub Pages.
 
 ## Current milestone
 
@@ -37,7 +34,7 @@ The import command only reads GitHub's public API. Set `GITHUB_TOKEN` to increas
 - Agent-native, but not tied to a specific model or vendor.
 - Declarative content with a versioned schema.
 - Validation outside the agent before preview or publication.
-- Static output with no RepoBloom backend.
+- Static output with no Showbranch backend.
 - User-approved deployment through Git and GitHub Actions.
 
 See [RFC 0001](docs/rfcs/0001-m1-vertical-slice.md) for scope and acceptance criteria.

@@ -1,12 +1,12 @@
-# RepoBloom GitHub issue plan
+# Showbranch GitHub issue plan
 
 These issues are ordered for sequential delivery. Priority and phase are encoded in each title so the backlog remains understandable even before labels and milestones are configured.
 
 ## Phase 0 — Brand foundation
 
-### 1. [P0 · Brand] Validate the RepoBloom name and reserve permanent identifiers
+### 1. [P0 · Brand] Validate the Showbranch name and reserve permanent identifiers
 
-Confirm that RepoBloom can become the permanent public identity before assets and package identifiers depend on it.
+Confirm that Showbranch can become the permanent public identity before assets and package identifiers depend on it.
 
 **Acceptance criteria**
 
@@ -28,7 +28,7 @@ Depends on #1.
 - [ ] Define three proof points and explicit non-goals.
 - [ ] Add a concise voice and terminology guide.
 
-### 3. [P0 · Brand] Design the RepoBloom visual identity system
+### 3. [P0 · Brand] Design the Showbranch visual identity system
 
 Depends on #2.
 
@@ -41,7 +41,7 @@ Depends on #2.
 - [ ] Define colors, typography, spacing, clear space, and minimum size.
 - [ ] Verify legibility at 32 px and contrast requirements.
 
-### 4. [P0 · Brand] Apply the RepoBloom identity across project metadata
+### 4. [P0 · Brand] Apply the Showbranch identity across project metadata
 
 Depends on #3.
 
@@ -91,7 +91,7 @@ Depends on #6.
 - [ ] Handle missing fields, API errors, and rate limits clearly.
 - [ ] Cover normalization with offline fixtures and tests.
 
-### 8. [P0 · CLI] Implement `repobloom init`
+### 8. [P0 · CLI] Implement `showbranch init`
 
 Depends on #5 and #6.
 
@@ -109,8 +109,8 @@ Depends on #7 and #8.
 
 **Acceptance criteria**
 
-- [ ] Implement `repobloom github import <handle>`.
-- [ ] Implement `repobloom validate`.
+- [ ] Implement `showbranch github import <handle>`.
+- [ ] Implement `showbranch validate`.
 - [ ] Support human-readable and `--json` output.
 - [ ] Never log or serialize credentials.
 - [ ] Add CLI integration tests for success and failure paths.
@@ -179,7 +179,7 @@ Depends on #7–#13.
 
 ## Phase 2 — Agent-native discovery and safety
 
-### 15. [P0 · Protocol] Specify `.repobloom/manifest.json`
+### 15. [P0 · Protocol] Specify `.showbranch/manifest.json`
 
 Depends on #6 and #12.
 
@@ -227,13 +227,13 @@ Depends on #16 and #17.
 
 ## Phase 3 — Skill distribution
 
-### 19. [P0 · Skill] Create the canonical RepoBloom Skill
+### 19. [P0 · Skill] Create the canonical Showbranch Skill
 
 Depends on #16–#18.
 
 **Acceptance criteria**
 
-- [ ] Add `skills/repobloom/SKILL.md` with a valid name and intent-rich description.
+- [ ] Add `skills/showbranch/SKILL.md` with a valid name and intent-rich description.
 - [ ] Reuse core commands and schemas rather than duplicating business logic.
 - [ ] Include safe repair, preview, and approval workflows.
 - [ ] Keep destructive publication outside automatic invocation.
@@ -251,7 +251,7 @@ Depends on #19.
 - [ ] Add reproducible installation checks to CI.
 - [ ] Document one-line install commands.
 
-### 21. [P1 · Distribution] Publish and verify RepoBloom on skills.sh
+### 21. [P1 · Distribution] Publish and verify Showbranch on skills.sh
 
 Depends on #20.
 
@@ -277,7 +277,7 @@ Depends on #3, #19, and #20.
 - [ ] Validate package paths and public-submission constraints.
 - [ ] Avoid an MCP server until a validated workflow requires one.
 
-### 23. [P1 · Codex] Test and submit the RepoBloom plugin for Codex/ChatGPT
+### 23. [P1 · Codex] Test and submit the Showbranch plugin for Codex/ChatGPT
 
 Depends on #22.
 
@@ -289,13 +289,13 @@ Depends on #22.
 - [ ] Upload the package and resolve automated findings.
 - [ ] Submit for review and track the outcome without blocking the core launch.
 
-### 24. [P1 · Claude] Package and publish the RepoBloom Claude plugin
+### 24. [P1 · Claude] Package and publish the Showbranch Claude plugin
 
 Depends on #3 and #19.
 
 **Acceptance criteria**
 
-- [ ] Add `.claude-plugin/plugin.json` with the permanent `repobloom` slug.
+- [ ] Add `.claude-plugin/plugin.json` with the permanent `showbranch` slug.
 - [ ] Add the shared icon, metadata, and canonical Skill.
 - [ ] Publish and test an owned GitHub marketplace.
 - [ ] Pass `claude plugin validate --strict` and plugin evals.
@@ -339,7 +339,7 @@ Depends on #5 and #25.
 - [ ] Seed well-scoped good-first issues.
 - [ ] Document theme and adapter contribution boundaries.
 
-### 28. [P1 · Release] Ship RepoBloom v0.1 and execute the launch campaign
+### 28. [P1 · Release] Ship Showbranch v0.1 and execute the launch campaign
 
 Depends on #21 and #23–#27.
 

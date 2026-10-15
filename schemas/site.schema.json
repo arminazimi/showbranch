@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/arminazimi/repobloom/main/schemas/site.schema.json",
-  "title": "RepoBloom Site",
+  "$id": "https://raw.githubusercontent.com/arminazimi/showbranch/main/schemas/site.schema.json",
+  "title": "Showbranch Site",
   "type": "object",
   "additionalProperties": false,
   "required": ["schemaVersion", "profile", "projects"],

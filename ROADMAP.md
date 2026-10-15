@@ -1,4 +1,4 @@
-# RepoBloom Product, Brand, and Distribution Roadmap
+# Showbranch Product, Brand, and Distribution Roadmap
 
 Status: proposed  
 Updated: 2026-10-15
@@ -11,9 +11,9 @@ The category we want to own is **agent-native developer portfolios**, not the br
 
 ## Naming decision
 
-`RepoBloom` is now a temporary working name and must be replaced before Phase 0 can exit. The 2026-10-15 name-clearance review found an older exact-name developer-tool repository, an adjacent GitHub-profile product using RepoBloom, and a third-party registration of `repobloom.com`. See the [name-clearance report](docs/brand/name-clearance.md).
+`Showbranch` is the approved permanent master brand. The 2026-10-15 naming sprint selected it after the working name `RepoBloom` failed clearance. See the [name-clearance report](docs/brand/name-clearance.md) and [replacement-name shortlist](docs/brand/replacement-name-shortlist.md).
 
-Do not publish packages, Skills, plugins, domains, or visual identity under `repobloom`. After a replacement passes the same clearance checks, the repository, package identifiers, CLI, Skill, and plugin naming will move together to that single identity.
+Use `showbranch` consistently for the repository, CLI, package, Skill, plugin, and machine-readable identifiers. Domain purchase and registry publication remain separate release actions.
 
 ## Product principles
 
@@ -22,7 +22,7 @@ Do not publish packages, Skills, plugins, domains, or visual identity under `rep
 3. **Safe by default:** read/import/edit/preview can be streamlined; publication and destructive actions require explicit user approval.
 4. **Beautiful by default:** the first theme must be good enough to market the project by itself.
 5. **One core, many surfaces:** CLI, Skill, Codex plugin, Claude plugin, and website share one schema and one brand.
-6. **Zero required backend:** a published portfolio stays static and independent of RepoBloom services.
+6. **Zero required backend:** a published portfolio stays static and independent of Showbranch services.
 
 ## Roadmap overview
 
@@ -110,13 +110,13 @@ GitHub username
 
 **Goal:** agents should recognize what the project is, what operations are allowed, and how to verify a change without the user teaching them each time.
 
-“Completely auto-discoverable” cannot depend on one convention because agents load different files. RepoBloom therefore uses layered discovery:
+“Completely auto-discoverable” cannot depend on one convention because agents load different files. Showbranch therefore uses layered discovery:
 
 1. **Repository discovery:** concise root `AGENTS.md` plus compatible agent instruction entry points.
 2. **Skill discovery:** canonical `skills/<brand>/SKILL.md` with high-signal trigger language.
-3. **Machine discovery:** `.repobloom/manifest.json` declaring schema version, capabilities, safe operations, paths, and validation commands.
+3. **Machine discovery:** `.showbranch/manifest.json` declaring schema version, capabilities, safe operations, paths, and validation commands.
 4. **Schema discovery:** stable JSON Schema URLs and version negotiation.
-5. **CLI discovery:** `repobloom capabilities --json` and `repobloom doctor --json`.
+5. **CLI discovery:** `showbranch capabilities --json` and `showbranch doctor --json`.
 6. **Plugin discovery:** portable plugin metadata plus surface-specific compatibility metadata.
 
 ### Standard safe operations
@@ -139,7 +139,7 @@ GitHub username
 
 ## Phase 3 — Skill distribution and skills.sh
 
-**Goal:** make RepoBloom discoverable by humans and by Skill Finder-style agents.
+**Goal:** make Showbranch discoverable by humans and by Skill Finder-style agents.
 
 ### Deliverables
 
@@ -256,7 +256,7 @@ Stars remain an important distribution signal, but **deployed and maintained por
 
 ### Weeks 1–2
 
-- Select a cleared permanent replacement for RepoBloom and reserve its identifiers.
+- Establish Showbranch as the permanent name and reserve its identifiers.
 - Reserve identity and define category language.
 - Create the complete brand kit and launch copy foundation.
 - Turn the M1 prototype into the canonical repository structure.

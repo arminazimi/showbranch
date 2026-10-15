@@ -16,7 +16,7 @@ The central product risk is not whether Astro can render a portfolio. It is whet
 ```text
 GitHub public API
   -> normalize deterministic fields
-  -> RepoBloom site document (schemaVersion 0.1)
+  -> Showbranch site document (schemaVersion 0.1)
   -> independent validation
   -> renderer (next slice)
   -> GitHub Pages workflow (later slice)
@@ -42,7 +42,7 @@ GitHub public API
 ## Deferred from this slice
 
 - Astro renderer and visual theme
-- `repobloom init`
+- `showbranch init`
 - GitHub Pages workflow generation
 - agent discovery manifest and permission policy
 - skill packages for Codex, Claude Code, and Cursor

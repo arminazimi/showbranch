@@ -15,7 +15,7 @@ async function githubRequest<T>(path: string): Promise<T> {
   const response = await fetch(`https://api.github.com${path}`, {
     headers: {
       Accept: "application/vnd.github+json",
-      "User-Agent": "repobloom-cli",
+      "User-Agent": "showbranch-cli",
       ...(token && { Authorization: `Bearer ${token}` }),
     },
   });
@@ -26,7 +26,7 @@ async function githubRequest<T>(path: string): Promise<T> {
 }
 
 async function importGitHub(handle: string): Promise<void> {
-  if (!handle) fail("Usage: repobloom github import <handle>");
+  if (!handle) fail("Usage: showbranch github import <handle>");
   const encodedHandle = encodeURIComponent(handle);
   const [user, repositories] = await Promise.all([
     githubRequest<GitHubUser>(`/users/${encodedHandle}`),
@@ -39,7 +39,7 @@ async function importGitHub(handle: string): Promise<void> {
 }
 
 async function validateFile(file: string): Promise<void> {
-  if (!file) fail("Usage: repobloom validate <site.json>");
+  if (!file) fail("Usage: showbranch validate <site.json>");
   let value: unknown;
   try {
     value = JSON.parse(await readFile(file, "utf8"));
@@ -48,7 +48,7 @@ async function validateFile(file: string): Promise<void> {
   }
   const result = validateSiteDocument(value);
   if (!result.ok) fail(result.issues.map((issue) => `${issue.path}: ${issue.message}`).join("\n"));
-  console.log(`${file} is a valid RepoBloom 0.1 site document.`);
+  console.log(`${file} is a valid Showbranch 0.1 site document.`);
 }
 
 if (command === "github" && subcommand === "import") {
@@ -56,6 +56,6 @@ if (command === "github" && subcommand === "import") {
 } else if (command === "validate") {
   await validateFile(subcommand);
 } else {
-  fail("Usage:\n  repobloom github import <handle>\n  repobloom validate <site.json>");
+  fail("Usage:\n  showbranch github import <handle>\n  showbranch validate <site.json>");
 }
 
