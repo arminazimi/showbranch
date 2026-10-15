@@ -10,11 +10,11 @@ Confirm that Showbranch can become the permanent public identity before assets a
 
 **Acceptance criteria**
 
-- [ ] Search GitHub, npm, skills.sh, Codex/ChatGPT plugins, Claude plugins, domains, social handles, and relevant trademark databases.
-- [ ] Record collisions and risk level in `docs/brand/name-clearance.md`.
-- [ ] Select the canonical lowercase slug.
-- [ ] Reserve or document the owner for GitHub, npm, domain, Skill, and plugin identifiers.
-- [ ] Record a final keep/rename decision.
+- [x] Search GitHub, npm, skills.sh, Codex/ChatGPT plugins, Claude plugins, domains, social handles, and relevant trademark databases.
+- [x] Record collisions and risk level in `docs/brand/name-clearance.md`.
+- [x] Select the canonical lowercase slug.
+- [x] Reserve or document the owner for GitHub, npm, domain, Skill, and plugin identifiers.
+- [x] Record a final keep/rename decision.
 
 ### 2. [P0 · Brand] Define positioning, audience, promise, and category language
 
@@ -22,11 +22,11 @@ Depends on #1.
 
 **Acceptance criteria**
 
-- [ ] Define the primary audience and job-to-be-done.
-- [ ] Approve the category: agent-native developer portfolios.
-- [ ] Approve one sentence, short description, long description, and tagline.
-- [ ] Define three proof points and explicit non-goals.
-- [ ] Add a concise voice and terminology guide.
+- [x] Define the primary audience and job-to-be-done.
+- [x] Approve the category: agent-native developer portfolios.
+- [x] Approve one sentence, short description, long description, and tagline.
+- [x] Define three proof points and explicit non-goals.
+- [x] Add a concise voice and terminology guide.
 
 ### 3. [P0 · Brand] Design the Showbranch visual identity system
 

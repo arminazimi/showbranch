@@ -46,6 +46,7 @@ Use `showbranch` consistently for the repository, CLI, package, Skill, plugin, a
 - Category statement: “The agent-native portfolio framework for GitHub Pages.”
 - One-sentence promise and three proof points.
 - Brand personality: precise, capable, premium, open, and calm—not generic “AI magic.”
+- Approved positioning, audience, voice, and terminology in [the brand guide](docs/brand/positioning.md).
 - Logo system:
   - symbol and wordmark;
   - horizontal and compact lockups;

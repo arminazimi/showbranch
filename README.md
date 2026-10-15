@@ -1,8 +1,8 @@
 # Showbranch
 
-> Create a stunning GitHub portfolio with your favorite AI agent. Customize it safely. Publish it for free.
+> Turn your GitHub work into a portfolio worth showing.
 
-Showbranch is an agent-native, model-agnostic framework for turning a public GitHub profile into a beautiful static portfolio that can be reviewed in Git and published on GitHub Pages.
+Showbranch is the agent-native framework for turning public GitHub work into beautiful, safely managed portfolios. It works with your preferred coding agent, keeps every change reviewable in Git, and publishes static sites to GitHub Pages without a required backend.
 
 ## Current milestone
 
@@ -37,4 +37,4 @@ The import command only reads GitHub's public API. Set `GITHUB_TOKEN` to increas
 - Static output with no Showbranch backend.
 - User-approved deployment through Git and GitHub Actions.
 
-See [RFC 0001](docs/rfcs/0001-m1-vertical-slice.md) for scope and acceptance criteria.
+See the [positioning and voice guide](docs/brand/positioning.md) for approved product language and [RFC 0001](docs/rfcs/0001-m1-vertical-slice.md) for scope and acceptance criteria.
