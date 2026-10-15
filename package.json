@@ -1,0 +1,16 @@
+{
+  "name": "repobloom",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "node --test packages/core/test/*.test.ts",
+    "validate:fixture": "node packages/cli/src/index.ts validate fixtures/github-profile.json"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}

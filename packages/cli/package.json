@@ -1,0 +1,9 @@
+{
+  "name": "@repobloom/cli",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "repobloom": "./src/index.ts"
+  }
+}
