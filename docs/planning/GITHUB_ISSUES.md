@@ -34,12 +34,12 @@ Depends on #2.
 
 **Acceptance criteria**
 
-- [ ] Create symbol and wordmark in SVG.
-- [ ] Provide horizontal, compact, light, dark, and monochrome variants.
-- [ ] Export favicon and 16/32/64/128/512/1024 px assets.
-- [ ] Create square plugin icon and GitHub social preview.
-- [ ] Define colors, typography, spacing, clear space, and minimum size.
-- [ ] Verify legibility at 32 px and contrast requirements.
+- [x] Create symbol and wordmark in SVG.
+- [x] Provide horizontal, compact, light, dark, and monochrome variants.
+- [x] Export favicon and 16/32/64/128/512/1024 px assets.
+- [x] Create square plugin icon and GitHub social preview.
+- [x] Define colors, typography, spacing, clear space, and minimum size.
+- [x] Verify legibility at 32 px and contrast requirements.
 
 ### 4. [P0 · Brand] Apply the Showbranch identity across project metadata
 
